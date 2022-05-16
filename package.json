@@ -1,0 +1,76 @@
+{
+  "name": "set",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080/",
+  "dependencies": {
+    "@babel/runtime": "^7.14.8",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@material-ui/styles": "^4.11.4",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.1",
+    "@mui/styled-engine-sc": "^5.4.2",
+    "@mui/x-data-grid": "^5.6.1",
+    "@react-spectrum/combobox": "^3.2.3",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.4",
+    "chartist": "0.10.1",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "history": "5.0.0",
+    "material-ui-popup-state": "^1.9.3",
+    "perfect-scrollbar": "1.5.1",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-jsbarcode": "^0.2.4",
+    "react-response": "^0.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-swipeable-views": "^0.14.0",
+    "react-switch": "^6.0.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.1.2",
+    "xlsx": "^0.18.4",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2"
+  }
+}
